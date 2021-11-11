@@ -128,6 +128,7 @@
     background-repeat: no-repeat;
     background-position-x: 15%,5%;
     background-position-y: 15%,0%;
+    padding-bottom: 30px;
 
 
 }
@@ -137,10 +138,130 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 100px;
+    padding-bottom: 50px;
+
+
+    background-image: url(./Mask.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
 }
 
 .chart-img{
     border-radius: 50%;
-    width: 60%;
-    height: 60%;
+    width: 70%;
+    height: 70%;
+
+    
+
+}
+
+.chart-title{
+    color: darkslategray;
+    font-size: 40px;
+    padding-bottom: 13px;
+}
+
+.chart-text{
+    padding-bottom: 13px;
+    color: grey;
+    font-size: 20px;
+}
+
+.header-btn{
+    height: 30px;
+}
+.chart-flexx{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    
+    background-image:url(./Path\ 3\ \(1\).png),url(./Path\ 4\ \(3\).png), url(./Mask\ Copy.png), url(./Bitmap\ \(4\).png);
+    background-repeat: no-repeat;
+    background-size: 3%,20%,10%,30%;
+    background-position-x: 18%,left,left,20%;
+    background-position-y: 11%,top,60%;
+}
+
+.chart-left{
+    padding-left: 250px;
+}
+
+.img-chart{
+    padding-left: 40px;
+}
+
+.footer-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 40px;
+    background-color: darkslateblue;
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    border-radius: 7px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-item{
+    padding: 20px;
+    padding-left: 40px;
+    margin-left: 20px;
+}
+
+.foot-subtext{
+    padding: 3px;
+    padding-right: 6px;
+}
+.foot-icon{
+    padding: 8px;
+}
+
+.footer-title{
+    color: white;
+    font-size: 35px;
+}
+
+.leg-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+.leg-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.leg-title{
+    color: white;
+    font-size: 40px;
+}
+.leg-item{
+    padding: 10px;
+}
+
+.leg-text{
+    color: grey;
+}
+
+.leg-subtext{
+    color: yellow;
 }
