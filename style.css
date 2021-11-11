@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+
+.header-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-top: 50px;
+}
+
+.header-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7px;
+    word-spacing: 3px;
+    
+}
+
+.header-title{
+    color: #4F5A69;
+}
+
+.header-link{
+    color: grey;
+    padding: 10px;
+    
+}
+.header-btn{
+    background-color: #FCB72B;
+    border: none;
+    color: white;
+    width: 90px;
+    height: 25px;
+}
+
+.box-flex{
+    background-image: url(./Bitmap\ \(2\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+
+
+    
+}
+
+
+.box-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top:105px;
+    padding-left:130px;
+
+    background-image: url(./Path\ 2.svg), url(./Path\ 4.png),url(./Path\ 3.png), url(./Oval\ \(1\).png), url(./Oval\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position-y: 53%,61%,69%,68%,68%;
+    background-position-x: 0%,75%,82.5%,91%,97%;
+    background-size: 15%,30%,3%,4%,4%;
+}
+
+.box-title{
+    font-size: 50px;
+    color: white;
+}
+
+.box-text{
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    padding-left: 73px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn{
+    padding-left: 50px;
+    padding-bottom: 160px;
+}
+.box-btn{
+    background-color:#FCB72B ;
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-size: 16px;
+    color: white;
+}
+
+
+.main-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 100px;
+    background-color: whitesmoke;
+
+    background-image: url(./Path\ 2.png);
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position-y: 45%;
+}
+.main-title{
+    color: #4F5A69;
+    font-size: 20px;
+     padding-top: 50px;
+     padding-bottom: 10px;
+
+}
+.main-text{
+    color: grey;
+    font-size: 15px;
+}
+
+.main-left{
+    padding-top: 90px;
+    background-image: url(./Shape\ \(2\).png),url(./Oval\ \(2\).png);
+    background-repeat: no-repeat;
+    background-position-x: 15%,5%;
+    background-position-y: 15%,0%;
+
+
+}
+
+.chart-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.chart-img{
+    border-radius: 50%;
+    width: 60%;
+    height: 60%;
+}
