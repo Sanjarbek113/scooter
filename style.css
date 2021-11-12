@@ -180,7 +180,7 @@
     padding-bottom: 100px;
 
     
-    background-image:url(./Path\ 3\ \(1\).png),url(./Path\ 4\ \(3\).png), url(./Mask\ Copy.png), url(./Bitmap\ \(4\).png);
+    background-image:url(./Path\ 3\ \(1\).png),url(./Path\ 4\ \(3\).png), url(./Mask\ Copy.png), url(./Bitmap\ Copy.png);
     background-repeat: no-repeat;
     background-size: 3%,20%,10%,30%;
     background-position-x: 18%,left,left,20%;
@@ -193,6 +193,9 @@
 
 .img-chart{
     padding-left: 40px;
+}
+.flex-chart{
+    padding-right: 350px;
 }
 
 .footer-flex{
